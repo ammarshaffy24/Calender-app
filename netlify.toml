@@ -7,9 +7,6 @@
   NODE_VERSION = "18"
   NPM_FLAGS = "--legacy-peer-deps"
 
-[[plugins]]
-  package = "@netlify/plugin-angular-runtime"
-
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/angular-ssr"
